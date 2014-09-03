@@ -1,0 +1,45 @@
+.orderComplete {
+
+  .orderOverview {
+
+    section {
+      padding: rem-calc(20);
+
+      &:nth-of-type(4) {
+        border-bottom: 0!important;
+      }
+    }
+
+    header {
+      border-bottom: 0;
+      padding-left: 0;
+    }
+
+    .message {
+      height: auto;
+      overflow: hidden;
+
+      h1 {
+        font-size: rem-calc(24);
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    }
+
+    .personal {
+      height: auto;
+      overflow: hidden;
+    }
+
+    .delivery {
+      height: auto;
+      overflow: hidden;
+    }
+
+    .service {
+      height: auto;
+      overflow: hidden;
+    }
+  }
+
+}

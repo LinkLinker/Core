@@ -1,0 +1,32 @@
+.newsletterOptin {
+  background-color: #fdfdfd;
+
+  .subtitle {
+    padding-bottom: $column-gutter * 1.5;
+  }
+
+  input[type="text"] {
+    padding: rem-calc(15px);
+    font-size: 16px;
+    font-weight: 300;
+    color: $body-font-color;
+    border: 1px solid #bababa!important;
+    box-shadow: none!important;
+
+    &:active {
+      background-color: transparent;
+    }
+  }
+
+  .call-to-action {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    clear: both;
+
+    input[type="submit"] {
+      margin: 20px auto 0;
+    }
+  }
+
+}

@@ -1,0 +1,53 @@
+.paginator {
+  width: rem-calc(400);
+  margin: 40px auto;
+  text-align: center;
+  text-transform: uppercase;
+
+  li {
+    display: inline;
+    padding: rem-calc(5);
+
+    a {
+      color: $body-font-color;
+      text-decoration: underline;
+      font-size: rem-calc(14);
+
+      &:hover {
+        color: $gassan-gold;
+      }
+
+      .active {
+        text-decoration: none;
+      }
+    }
+
+    .prev {
+      text-decoration: none;
+      padding-right: rem-calc(20);
+
+      &:before {
+        position: relative;
+        content: "<";
+        padding-right: rem-calc(10);
+        width: rem-calc(15);
+        height: rem-calc(15);
+        font-size: rem-calc(21);
+      }
+    }
+
+    .next {
+      text-decoration: none;
+      padding-left: rem-calc(20);
+
+      &:after {
+        position: relative;
+        content: ">";
+        padding-left: rem-calc(10);
+        width: rem-calc(15);
+        height: rem-calc(15);
+        font-size: rem-calc(21);
+      }
+    }
+  }
+}

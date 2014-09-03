@@ -1,0 +1,31 @@
+.keyvisualContent-block {
+  position: relative;
+  display: none;
+  z-index: 1000;
+  margin: 0 auto;
+  width: rem-calc(472px);
+  height: rem-calc(166px);
+  padding: rem-calc(5px);
+  top: rem-calc(160);
+  text-align: center;
+  color: #ffffff;
+
+  @media #{$medium-up} {
+    display: block;
+  }
+
+  .inner {
+    padding: rem-calc(20);
+
+    .maintitle {
+      font-size: rem-calc(58);
+      font-family: $secondary-font;
+      text-transform: uppercase;
+      font-weight: 300;
+      letter-spacing: rem-calc(1);
+      padding: 0;
+      color: #ffffff;
+      text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    }
+  }
+}

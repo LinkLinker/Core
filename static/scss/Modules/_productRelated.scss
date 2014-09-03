@@ -1,0 +1,32 @@
+.productRelated {
+  position: relative;
+  text-align: center;
+
+  .inner {
+    position: relative;
+    padding: rem-calc(15);
+
+    .image {
+      position: relative;
+      width: rem-calc(170);
+      height: rem-calc(100);
+      margin: 0 auto rem-calc(20);
+
+      img {
+        display: block;
+        margin: 0 auto;
+        width: rem-calc(170);
+      }
+    }
+
+    .title {
+      font-weight: 700;
+      padding-bottom: rem-calc(10);
+    }
+
+    .description, .price {
+      font-weight: normal;
+      padding-bottom: rem-calc(10);
+    }
+  }
+}

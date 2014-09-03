@@ -1,0 +1,39 @@
+.pageHeader {
+  position: relative;
+  height: auto;
+  padding-top: $column-gutter / 1.2;
+
+  .headerNav {
+    position: relative;
+  }
+
+  .keyVisual {
+    position: relative;
+    max-height: rem-calc(510px);
+    height: auto;
+  }
+
+  .headerNav {
+    .top {
+      height: rem-calc(90px);
+
+      .logo {
+        position: relative;
+        width: rem-calc(170px);
+        height: rem-calc(60px);
+        margin: 25px auto 0;
+      }
+    }
+
+    .bottom {
+      position: relative;
+      height: rem-calc(40px);
+      width: 100%;
+      padding: 0;
+      border-top: 1px solid $section-border-color;
+      border-bottom: 1px solid $section-border-color;
+      z-index: 3000;
+      background: #ffffff;
+    }
+  }
+}

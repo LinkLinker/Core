@@ -1,0 +1,136 @@
+.customerAccount {
+  position: relative;
+  // border-top: 1px solid $section-border-color;
+  background-color: #fdfdfd;
+
+  @media #{$medium-up} {
+    .columns,
+    .column {
+      padding: 0;
+    }
+
+    .row {
+      padding-left: $column-gutter / 2.2;
+      padding-right: $column-gutter / 2.2;
+    }
+  }
+
+  .elementPanel {
+    margin-bottom: 0;
+
+    .radio {
+      margin-top: 0;
+    }
+
+    label {
+      text-transform: uppercase;
+      font-size: rem-calc(12);
+      text-align: left;
+      color: #bababa;
+      margin: 0;
+
+      @media #{$medium-up} {
+        clear: both;
+        float: none;
+      }
+
+    }
+
+    header {
+      height: rem-calc(40);
+      padding: rem-calc(14);
+      border-bottom: 1px solid $section-border-color;
+      border-top: 0;
+
+      @extend .micro-header;
+      text-align: left;
+      color: #bababa;
+    }
+
+    @media #{$medium-up} {
+      .odd {
+        border-right: 0;
+        border-top: 1px solid $section-border-color;
+      }
+    }
+  }
+
+  .createAccount,
+  .customerLogin,
+  .completeRegistration {
+    padding: rem-calc(20);
+
+    .formDate-day,
+    .formDate-month {
+      width: 90%;
+    }
+
+    .title {
+      font-size: rem-calc(26);
+      font-weight: normal;
+      padding: 0 0 rem-calc(5);
+    }
+
+    .button {
+      margin-top: $column-gutter;
+    }
+
+    .radioOption {
+      padding-top: rem-calc(5);
+      padding-bottom: rem-calc(10);
+      overflow: hidden;
+
+      .inner {
+        width: rem-calc(100);
+        float: left;
+        margin-right: rem-calc(10);
+
+        &:last-of-type {
+          clear: right;
+        }
+      }
+    }
+  }
+
+  .createAccount {
+    .button {
+      background-color: #ffffff;
+      color: $body-font-color;
+      border: 2px solid $body-font-color;
+      float: left !important;
+      margin-top: $column-gutter !important;
+
+      &:hover {
+        background-color: $body-font-color;
+        color: #ffffff;
+      }
+    }
+  }
+
+  .customerLogin {
+    .button {
+      float: right;
+    }
+
+    form {
+      padding-left: rem-calc(20);
+      padding-right: rem-calc(20);
+    }
+  }
+
+  .call-to-action {
+    position: relative;
+    clear: both;
+    overflow: hidden;
+
+    .button {
+      margin: 0;
+      float: right;
+    }
+  }
+
+  .bodyText {
+    padding-bottom: rem-calc(20);
+  }
+
+}

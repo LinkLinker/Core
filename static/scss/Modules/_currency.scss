@@ -1,0 +1,39 @@
+.currency {
+  .title {
+    @extend .micro-header;
+    padding-bottom: $column-gutter;
+    border-bottom: 1px dashed $section-border-color;
+  }
+
+  label {
+    margin: 0;
+    padding: rem-calc(4);
+  }
+
+  .currencyChoice {
+      padding-top: rem-calc(10);
+      padding-bottom: rem-calc(10);
+      color: $body-font-color;
+      text-align: left;
+
+      .currency-title {
+        padding-top: rem-calc(5);
+        padding-bottom: rem-calc(5);
+        font-weight: 400;
+        font-size: rem-calc(14);
+        text-align: left;
+        color: $body-font-color;
+      }
+  }
+
+  .checkbox, .radio {
+    height: 19px !important;
+    margin: 0 rem-calc(8) 0 0;
+  }
+
+  .currencyValue {
+    &.eur {
+
+    }
+  }
+}

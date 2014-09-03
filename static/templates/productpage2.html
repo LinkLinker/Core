@@ -1,0 +1,718 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="nl" > <![endif]-->
+<html class="no-js" lang="nl">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Gassan - HOME</title>
+        <link rel="stylesheet" href="../css/style.css"/>
+        <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+        <script src="../components/modernizr/modernizr.js"></script>
+    </head>
+
+    <body>
+
+    <div class="off-canvas-wrap" data-offcanvas>
+        <div class="inner-wrap">
+
+            <a class="left-off-canvas-toggle menu-icon show-for-medium-down" href="#">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+            </a>
+
+        <!-- Off Canvas Menu -->
+        <aside class="left-off-canvas-menu">
+            <!-- Off canvas menu goes here -->
+            <ul class="off-canvas-list"></ul>
+        </aside>
+
+        <div class="topBar"> <!-- Fixed topbar -->
+            <div class="row">
+                <div class="small-12 medium-6 columns show-for-large-up">
+                    <div class="usp">
+                        <span>100 dagen return right</span>
+                        <span>altijd verzekerd</span>
+                        <span>gratis verzenden & return</span>
+                    </div>
+                </div>
+
+                <div class="small-12 medium-6 columns">
+                    <ul class="menu">
+                        <li class="valuta">
+                            <a data-options="align:left" data-dropdown="currencyDropdown" title="Valuta: EUR" data-foo="&euro;" href="#">Valuta</a>
+                            <ul id="currencyDropdown" class="currency f-dropdown content" data-dropdown-content>
+                                <section>
+                                    <h2 class="title">Gewenste valuta</h2>
+                                </section>
+
+                                <article class="currencyChoice">
+                                    <div class="row">
+                                        <form>
+                                            <div class="small-6 columns">
+                                                <label for="eur" class="currencyValue eur"><input type="radio" id="eur" name="radio" class="styled"/> EUR</label>
+                                                <label for="jpy" class="currencyValue jpy"><input type="radio" id="jpy" name="radio" class="styled"/> JPY</label>
+                                                <label for="usd" class="currencyValue usd"><input type="radio" id="usd" name="radio" class="styled"/> USD</label>
+                                            </div>
+
+                                            <div class="small-6 columns">
+                                                <label for="gbp" class="currencyValue gbp"><input type="radio" id="gbp" name="radio" class="styled"/> GBP</label>
+                                                <label for="aud" class="currencyValue aud"><input type="radio" id="aud" name="radio" class="styled"/> AUD</label>
+                                                <label for="cny" class="currencyValue cny"><input type="radio" id="cny" name="radio" class="styled"/> CNY</label>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </article>
+                            </ul></li>
+                        <li class="search"><a href="#">Zoeken</a></li>
+                        <li class="login"><a href="#">Login</a></li>
+                        <li class="bag" data-options="align:left" data-dropdown="bagDropdown">
+                            <a href="#" title="8 products" data-foo="8">Bag</a></li>
+                        <ul id="bagDropdown" class="shoppingBag f-dropdown content" data-dropdown-content>
+                            <section>
+                                <h2 class="title">Uw producten</h2>
+                            </section>
+
+                            <section class="productlist">
+                                <article class="product odd">
+                                    <div class="row">
+                                        <div class="small-4 columns">
+                                            <div class="image"><img src="http://placehold.it/65x65"></div>
+                                        </div>
+                                        <div class="small-8 columns">
+                                            <div class="product-title">Product title 1</div>
+                                            <div class="price">€ 7.122,00</div>
+                                            <div class="edit-link"><a href="#">wijzigen</a></div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="product even">
+                                    <div class="row">
+                                        <div class="small-4 columns">
+                                            <div class="image"><img src="http://placehold.it/65x65"></div>
+                                        </div>
+                                        <div class="small-8 columns">
+                                            <div class="product-title">Product title 1</div>
+                                            <div class="price">€ 7.122,00</div>
+                                            <div class="edit-link"><a href="#">wijzigen</a></div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="product odd">
+                                    <div class="row">
+                                        <div class="small-4 columns">
+                                            <div class="image"><img src="http://placehold.it/65x65"></div>
+                                        </div>
+                                        <div class="small-8 columns">
+                                            <div class="product-title">Product title 1</div>
+                                            <div class="price">€ 7.122,00</div>
+                                            <div class="edit-link"><a href="#">wijzigen</a></div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="product even">
+                                    <div class="row">
+                                        <div class="small-4 columns">
+                                            <div class="image"><img src="http://placehold.it/65x65"></div>
+                                        </div>
+                                        <div class="small-8 columns">
+                                            <div class="product-title">Product title 1</div>
+                                            <div class="price">€ 7.122,00</div>
+                                            <div class="edit-link"><a href="#">wijzigen</a></div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </section>
+
+
+                            <section class="subtotal">
+                                <p class="title">Subtotaal</p><p class="price">€ 7.122,00</p>
+                            </section>
+
+                            <a class="button">Afrekenen</a>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- End of topbar -->
+
+        <div class="pageHeader fullWidth">
+            <div class="headerNav">
+                <div class="row">
+                    <div class="top">
+                        <div class="small-12 medium-4 columns">&nbsp;</div>
+                        <div class="small-12 medium-4 columns">
+                            <div class="logo">
+                                <img src="../images/logo.png">
+                            </div>
+                        </div>
+
+                        <div class="small-12 medium-4 columns">
+                            <div class="navSecondary show-for-large-up">
+                                <ul class="menu">
+                                    <li class="first"><a href="#">Tours</a>
+                                    <li><a href="#">Nieuws</a>
+                                    <li><a href="#">Gazan</a></li>
+                                    <li class="last"><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom show-for-large-up">
+                    <div class="row">
+                        <div class="small-12 columns">
+                            <div class="navPrimary">
+                                <ul class="menu">
+                                    <li><a href="#">Juwelen</a></li>
+                                    <li><a href="#" class="active">Diamanten</a></li>
+                                    <li><a href="#">Horloges</a></li>
+                                    <li><a href="#">Trouwen</a></li>
+                                    <li><a href="#">Ringen</a></li>
+                                    <li><a href="#">Merken</a></li>
+                                    <li><a href="#">Gifts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="keyVisual-small">
+                <ul data-orbit>
+                    <li class="orbit-slide" style="background:url(../images/keyvisual-small-1.png);"></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="pageContent"> <!--Main content starts here -->
+            <section>
+                <h1 class="maintitle">Verlovingsringen</h1>
+                <h3 class="subtitle">Verras uw geliefde</h3>
+            </section>
+
+            <section class="productToolbar">
+                <div class="row">
+
+                </div>
+            </section>
+
+            <section class="productOverview">
+              <div class="row">
+                  <div class="small-12 medium-3 columns overviewLeft"> <!-- Product selection filter -->
+                      <h3>Maak uw selectie</h3>
+                      <span class="reset-filter top"><a href="#">reset filter</a></span>
+
+                      <p class="title">Geslacht</p>
+
+                      <div>
+                          <ul class="catGender">
+                              <li><input type="checkbox" class="styled"/>Man<span class="quantity right">(102)</span></li>
+                              <li><input type="checkbox" class="styled"/>Vrouw<span class="quantity right">(230)</span></li>
+                              <span class="reset-filter right"><a href="#">reset</a></span>
+                          </ul>
+                      </div>
+
+                      <p class="title">Prijs</p>
+                      <div class="catPrice">
+                          <p id="price">Prijs</p>
+                          <div class="price-slider" id="price-range"></div>
+                      </div>
+
+                      <p class="title">Diamand</p>
+                      <div>
+                          <ul class="catDiamond">
+                              <li><input type="checkbox" class="styled"/> Merk 1<span class="quantity right">(248)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 2<span class="quantity right">(123)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 3<span class="quantity right">(2480)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 4<span class="quantity right">(28)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 5<span class="quantity right">(24)</span></li>
+                              <span class="reset-filter right"><a href="#">reset</a></span>
+                          </ul>
+                      </div>
+
+                      <p class="title">Vorm</p>
+                      <div>
+                          <ul class="catShape">
+                              <li><input type="checkbox" class="styled"/> Merk 1<span class="quantity right">(248)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 2<span class="quantity right">(123)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 3<span class="quantity right">(2480)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 4<span class="quantity right">(28)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 5<span class="quantity right">(24)</span></li>
+                              <span class="reset-filter right"><a href="#">reset</a></span>
+                          </ul>
+                      </div>
+
+                      <p class="title">Metaalvorm</p>
+                      <div>
+                          <ul class="catMetalshape">
+                              <li><input type="checkbox" class="styled"/> Merk 1<span class="quantity right">(248)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 2<span class="quantity right">(123)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 3<span class="quantity right">(2480)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 4<span class="quantity right">(28)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 5<span class="quantity right">(24)</span></li>
+                              <span class="reset-filter right"><a href="#">reset</a></span>
+                          </ul>
+                      </div>
+
+                      <p class="title">Metaalkleur</p>
+                      <div>
+                          <ul class="catMetalcolor">
+                              <li><input type="checkbox" class="styled"/> Merk 1<span class="quantity right">(248)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 2<span class="quantity right">(123)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 3<span class="quantity right">(2480)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 4<span class="quantity right">(28)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 5<span class="quantity right">(24)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 1<span class="quantity right">(248)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 2<span class="quantity right">(123)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 3<span class="quantity right">(2480)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 4<span class="quantity right">(28)</span></li>
+                              <li><input type="checkbox" class="styled"/> Merk 5<span class="quantity right">(24)</span></li>
+                          </ul>
+                      </div>
+                  </div> <!-- End of product filter selection -->
+
+                  <div class="small-12 medium-9 columns overviewRight"> <!-- Product overview content -->
+                      <div class="row">
+
+                          <ul class="productlist">
+                              <li class="product odd first"> <!-- Product #1 -->
+                                  <div class="inner">
+                                      <div class="image"><img src="http://placehold.it/180x180"></div>
+                                      <div class="thumbs">
+                                          <img src="http://placehold.it/45x50">
+                                          <img src="http://placehold.it/45x50">
+                                          <img src="http://placehold.it/45x50">
+                                      </div>
+                                      <div class="title">Biarritz GD</div>
+                                      <div class="description">0.25 carat ideal cut</div>
+                                      <div class="price">
+                                          <div class="old">€ 250,-</div>
+                                          <div class="new">€ 250,-</div>
+                                      </div>
+                                  </div>
+                                  <div class="link"><a href="#">Bekijk product</a></div>
+                              </li>
+
+                              <li class="product even"> <!-- Product #2 -->
+                                  <div class="inner">
+                                      <div class="image"><img src="http://placehold.it/180x180"></div>
+                                      <div class="thumbs">
+                                          <img src="http://placehold.it/45x50">
+                                          <img src="http://placehold.it/45x50">
+                                          <img src="http://placehold.it/45x50">
+                                      </div>
+                                      <div class="title">Biarritz GD</div>
+                                      <div class="description">0.25 carat ideal cut</div>
+                                      <div class="price">
+                                          <div class="old">€ 250,-</div>
+                                          <div class="new">€ 250,-</div>
+                                      </div>
+                                  </div>
+                                  <div class="link"><a href="#">Bekijk product</a></div>
+                              </li>
+
+                              <li class="product odd"> <!-- Product #3 -->
+                                  <div class="inner">
+                                      <div class="image"><img src="http://placehold.it/180x180"></div>
+                                      <div class="thumbs">
+                                          <img src="http://placehold.it/45x50">
+                                          <img src="http://placehold.it/45x50">
+                                          <img src="http://placehold.it/45x50">
+                                      </div>
+                                      <div class="title">Biarritz GD</div>
+                                      <div class="description">0.25 carat ideal cut</div>
+                                      <div class="price">
+                                          <div class="old">€ 250,-</div>
+                                          <div class="new">€ 250,-</div>
+                                      </div>
+                                  </div>
+                                  <div class="link"><a href="#">Bekijk product</a></div>
+                              </li>
+                          </ul>
+
+                          <ul class="productlist">
+                              <li class="product even"> <!-- Product #4 -->
+                                  <div class="inner">
+                                      <div class="image"><img src="http://placehold.it/180x180"></div>
+                                      <div class="thumbs">
+                                          <img src="http://placehold.it/45x50">
+                                          <img src="http://placehold.it/45x50">
+                                          <img src="http://placehold.it/45x50">
+                                      </div>
+                                      <div class="title">Biarritz GD</div>
+                                      <div class="description">0.25 carat ideal cut</div>
+                                      <div class="price">
+                                          <div class="old">€ 250,-</div>
+                                          <div class="new">€ 250,-</div>
+                                      </div>
+                                  </div>
+                                  <div class="link"><a href="#">Bekijk product</a></div>
+                              </li>
+
+                              <li class="product odd"> <!-- Product #5 -->
+                                  <div class="inner">
+                                      <div class="image"><img src="http://placehold.it/180x180"></div>
+                                      <div class="thumbs">
+                                          <img src="http://placehold.it/45x50">
+                                          <img src="http://placehold.it/45x50">
+                                          <img src="http://placehold.it/45x50">
+                                      </div>
+                                      <div class="title">Biarritz GD</div>
+                                      <div class="description">0.25 carat ideal cut</div>
+                                      <div class="price">
+                                          <div class="old">€ 250,-</div>
+                                          <div class="new">€ 250,-</div>
+                                      </div>
+                                  </div>
+                                  <div class="link"><a href="#">Bekijk product</a></div>
+                              </li>
+
+                              <li class="product even last"> <!-- Product #6 -->
+                                  <div class="inner">
+                                      <div class="image"><img src="http://placehold.it/180x180"></div>
+                                      <div class="thumbs">
+                                          <img src="http://placehold.it/45x50">
+                                          <img src="http://placehold.it/45x50">
+                                          <img src="http://placehold.it/45x50">
+                                      </div>
+                                      <div class="title">Biarritz GD</div>
+                                      <div class="description">0.25 carat ideal cut</div>
+                                      <div class="price">
+                                          <div class="old">€250,-</div>
+                                          <div class="new">€250,-</div>
+                                      </div>
+                                  </div>
+                                  <div class="link"><a href="#">Bekijk product</a></div>
+                              </li>
+                          </ul>
+
+                          <ul class="paginator">
+                              <li><a class="prev" href="#">vorige</a></li>
+                              <li><a class="active" href="#">1</a></li>
+                              <li><a href="#">2</a></li>
+                              <li><a href="#">3</a></li>
+                              <li><a href="#">4</a></li>
+                              <li><a class="next" href="#">volgende</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+            </section>
+
+            <section class="ringConfigurator">
+                <h3 class="subtitle">configurator</h3>
+                <h1 class="maintitle">Creeer uw eigen ring</h1>
+
+                <div class="row">
+                    <div class="small-12 medium-4 columns">
+                        <div class="elementPanel">
+                            <div class="title">Selecteer uw diamant</div>
+                            <div class="image"><img src="../images/ringConfig-step1.png"></div>
+                        </div>
+                    </div>
+                    <div class="small-12 medium-4 columns">
+                        <div class="elementPanel">
+                            <div class="title">Selecteer uw ring</div>
+                            <div class="image"><img src="../images/ringConfig-step2.png"></div>
+                        </div>
+                    </div>
+                    <div class="small-12 medium-4 columns">
+                        <div class="elementPanel">
+                            <div class="title">Complementeer uw ring</div>
+                            <div class="image"><img src="../images/ringConfig-step3.png"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="call-to-action">
+                    <div class="row">
+                        <div class="small-12 columns">
+                            <a href="#" class="button">starten</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="latestProduct-sold">
+                <div class="row">
+                    <div class="small-12 columns">
+                        <h3 class="subtitle">Laatst verkochte producten</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="elementPanel">
+                            <div class="image">
+                                <img src="../images/latestSold-1.png">
+                            </div>
+                            <div class="title">trouwen</div>
+                        </div>
+                    </div>
+
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="elementPanel">
+                            <div class="image">
+                                <img src="../images/latestSold-2.png">
+                            </div>
+                            <div class="title">Diamanten</div>
+                        </div>
+                    </div>
+
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="elementPanel">
+                            <div class="image">
+                                <img src="../images/latestSold-3.png">
+                            </div>
+                            <div class="title">Uurwerken</div>
+                        </div>
+                    </div>
+
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="elementPanel">
+                            <div class="image">
+                                <img src="../images/latestSold-4.png">
+                            </div>
+                            <div class="title">Gassan 121</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gassanService">
+                <div class="row">
+                    <h5>Gassan Service</h5>
+                    <h2>Niets is belangrijker dan onze clienten</h2>
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="inner">
+                            <p class="title">Live klanten support</p>
+                            <p class="bodyText">The brand Gassan, with its life long experience and knowledge of the world markets - the Dutch and Asian market in particular- will continue to further strengthen its position and develop into one of the world’s leading diamond polishing and luxury jewelry and watch companies.</p>
+                        </div>
+                    </div>
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="inner">
+                            <p class="title">Verzekerde betaalmethoden</p>
+                            <p class="bodyText">The brand Gassan, with its life long experience and knowledge of the world markets - the Dutch and Asian market in particular- will continue to further.</p>
+                        </div>
+                    </div>
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="inner">
+                            <p class="title">Informatie services</p>
+                            <p class="bodyText">The brand Gassan, with its life long experience and knowledge of the world markets - the Dutch and Asian market in particular- will continue to further strengthen its position and develop into one of the world’s leading diamond.</p>
+                        </div>
+                    </div>
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="inner">
+                            <p class="title">Gift services</p>
+                            <p class="bodyText">The brand Gassan, with its life long experience and knowledge of the world markets - the Dutch and Asian market in particular- will continue to further strengthen its position and develop into one of the world’s leading diamond polishing and luxury jewelry and watches.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ourBrands">
+                <div class="row">
+                    <ul class="brands">
+                        <li><img src="http://placehold.it/100x100" /></li>
+                        <li><img src="http://placehold.it/100x100" /></li>
+                        <li><img src="http://placehold.it/100x100" /></li>
+                        <li><img src="http://placehold.it/100x100" /></li>
+                        <li><img src="http://placehold.it/100x100" /></li>
+                        <li><img src="http://placehold.it/100x100" /></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="newsletterOptin">
+                <div class="row">
+
+                    <h5>Schrijf u in voor de nieuwsbrief</h5>
+
+                    <form>
+                        <div class="small-12 medium-4 columns">
+                            <input type="text" placeholder="Voornaam" />
+                        </div>
+                        <div class="small-12 medium-4 columns">
+                            <input type="text" placeholder="Achternaam" />
+                        </div>
+                        <div class="small-12 medium-4 columns">
+                            <input type="text" placeholder="E-mail" />
+                        </div>
+
+                        <div class="call-to-action">
+                            <div class="row">
+                                <div class="small-12 columns">
+                                    <input type="submit" class="button" value="verzenden">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+        </div> <!-- Main content ends here -->
+
+
+        <div class="pageFooter fullWidth"> <!--Footer starts here -->
+            <div class="row">
+                <div class="medium-1 show-for-medium-up columns">&nbsp;</div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Home</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Over Gassan</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Merken</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Top categorieen</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Diensten</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="medium-1 show-for-medium-up columns">&nbsp;</div>
+            </div>
+
+            <div class="row">
+                <div class="medium-1 show-for-medium-up columns">&nbsp;</div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Home</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Over Gassan</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Merken</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Top categorieen</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Diensten</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="medium-1 show-for-medium-up columns">&nbsp;</div>
+            </div>
+        </div>
+
+
+        <!-- close the off-canvas menu -->
+        <a class="exit-off-canvas"></a>
+
+        </div>
+    </div>
+
+    <script src="../components/jquery/dist/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script src="../components/foundation/js/foundation.min.js"></script>
+    <script src="../components/foundation/js/foundation/foundation.offcanvas.js"></script>
+    <script src="../components/fastclick/lib/fastclick.js"></script>
+    <script src="../js/jquery.nicescroll.min.js"></script>
+    <script src="../js/jquery.sticky.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/formElements.js"></script>
+    <script src="../js/jquery.sudoSlider.min.js"></script>
+
+    </body>
+</html>

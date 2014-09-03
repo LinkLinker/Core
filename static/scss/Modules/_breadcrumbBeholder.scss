@@ -1,0 +1,64 @@
+.breadcrumbBeholder {
+  border-bottom: 1px solid $section-border-color;
+  height: rem-calc(40);
+  padding-top: rem-calc(7);
+  text-transform: uppercase;
+
+
+
+  .productCat-crumbs {
+    background-color: #ffffff;
+
+    li {
+      padding: rem-calc(10);
+      font-size: rem-calc(12);
+
+      a {
+        color: #7f8080;
+        text-decoration: none;
+
+        &:hover {
+          color: $gassan-gold;
+        }
+      }
+
+      .active {
+        color: $gassan-gold;
+        text-decoration: underline;
+      }
+    }
+  }
+
+
+
+  .productCat-crumbNav {
+    font-size: rem-calc(13px);
+    font-family: $body-font-family;
+    font-weight: $font-weight-normal;
+    text-transform: uppercase;
+    color: #7f8080;
+
+    li {
+      padding: rem-calc(0 8px);
+
+      a {
+        color: $body-font-color;
+
+        &:hover {
+          color: $gassan-gold;
+        }
+      }
+
+      &:after {
+        content: "\00a0";
+        position: relative;
+        overflow: hidden;
+        display: inline;
+        width: rem-calc(5);
+        height: rem-calc(15);
+        border-left: 1px dotted #8b8c8c;
+        left: rem-calc(10);
+      }
+    }
+  }
+}

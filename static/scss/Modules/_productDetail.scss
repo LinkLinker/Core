@@ -1,0 +1,76 @@
+.productDetail {
+    border-top: 1px solid $section-border-color !important;
+    font-family: $secondary-font;
+    font-color: $body-font-color;
+
+  .orbit-container {
+    .orbit-prev {
+      display: block;
+      background: url('../images/arrow-dark-left.png') no-repeat;
+      background-position: 20px;
+    }
+    .orbit-next {
+      display: block;
+      background: url('../images/arrow-dark-right.png') no-repeat;
+      background-position: 20px;
+    }
+  }
+
+  .product-slider {
+    img {
+      margin: 0 auto;
+    }
+  }
+
+  .title {
+    font-size: rem-calc(30);
+    text-transform: uppercase;
+    padding-bottom: rem-calc(10);
+  }
+
+  .price {
+    font-size: rem-calc(24);
+    padding-bottom: $column-gutter;
+
+    .vat {
+      font-size: rem-calc(14);
+      color: #7f8080;
+      margin-left: 20px;
+    }
+  }
+
+  .description {
+    position: relative;
+    font-weight: 700;
+
+    .bodyText {
+      line-height: 21px;
+      font-weight: 700;
+    }
+  }
+
+  .specs {
+      clear: both;
+      margin-bottom: $column-gutter * 1.5;
+
+      .left {
+        color: #7f8080;
+
+        p {
+          padding: 0;
+          margin-bottom: rem-calc(5);
+          text-transform: uppercase;
+          font-size: rem-calc(12);
+        }
+      }
+
+      .right {
+        color: $body-font-color;
+
+        p {
+          padding: 0;
+          margin-bottom: rem-calc(5);
+        }
+      }
+  }
+}

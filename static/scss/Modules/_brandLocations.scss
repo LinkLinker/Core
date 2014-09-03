@@ -1,0 +1,29 @@
+.brandLocations {
+  padding-bottom: $column-gutter * 2;
+
+  &.contact {
+    padding-top: 0!important;
+    border-top: 0!important;
+    border-bottom: 0!important;
+    overflow: hidden;
+  }
+
+  .subtitle {
+    position: relative;
+    padding-bottom: $column-gutter * 2;
+  }
+
+  .bodyText {
+    padding: rem-calc(20);
+  }
+
+  .subtitle {
+    &.page {
+      margin-bottom: $column-gutter;
+      padding-bottom: rem-calc(20);
+      border-bottom: 1px solid $section-border-color;
+      border-top: 0!important;
+    }
+  }
+
+}

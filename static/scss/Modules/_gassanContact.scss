@@ -1,0 +1,39 @@
+.gassanContact {
+  position:relative;
+  height: auto;
+  overflow: hidden;
+  font-size: rem-calc(16);
+  border-bottom: 0!important;
+  padding-bottom: 0!important;
+
+  form {
+    padding: 0!important;
+  }
+
+  .inner {
+    position: relative;
+    overflow: hidden;
+
+    .title {
+      p {
+        font-weight: 700;
+      }
+    }
+
+    .bodyText {
+      padding-bottom: rem-calc(20);
+
+      p {
+        font-weight: normal;
+      }
+    }
+  }
+
+  .subtitle {
+    &.page {
+      margin-bottom: $column-gutter;
+      padding-bottom: rem-calc(20);
+      border-bottom: 1px solid $section-border-color;
+    }
+  }
+}

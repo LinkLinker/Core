@@ -1,0 +1,43 @@
+.ringConfigurator {
+  position: relative;
+
+  .elementPanel {
+    border: 0;
+  }
+
+  h2 {
+    padding-bottom: $column-gutter * 1.5;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: rem-calc(18px);
+    color: $body-font-color;
+    text-align: center;
+  }
+
+  .image {
+    position: relative;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid $section-border-color;
+    margin-bottom: $column-gutter * 1.5;
+
+    @media #{$medium-up} {
+      margin-bottom: 0;
+    }
+
+    img {
+      display: block;
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+
+  .call-to-action {
+    text-align: center;
+    padding-top: rem-calc(30px);
+  }
+
+}

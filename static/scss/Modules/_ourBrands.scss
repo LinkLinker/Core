@@ -1,0 +1,38 @@
+.ourBrands {
+  position: relative;
+
+  .brands {
+    @include block-grid(3, $block-grid-default-spacing, true);
+
+    @media #{$medium-up} {
+      @include block-grid(6, $block-grid-default-spacing, true);
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .allBrands {
+    @include block-grid(2, $block-grid-default-spacing, true);
+    padding-left: rem-calc(10);
+    padding-right: rem-calc(10);
+
+    @media #{$medium-up} {
+      @include block-grid(3, $block-grid-default-spacing, true);
+    }
+    @media #{$large-up} {
+      @include block-grid(6, $block-grid-default-spacing, true);
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+
+      &.logo {
+        padding: rem-calc(10 0);
+      }
+    }
+  }
+}

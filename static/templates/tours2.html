@@ -1,0 +1,512 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="nl" > <![endif]-->
+<html class="no-js" lang="nl">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Gassan - HOME</title>
+        <link rel="stylesheet" href="../css/style.css"/>
+        <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+        <script src="../components/modernizr/modernizr.js"></script>
+        <script src="../js/refresh.js"></script> <!-- Remove on staging -->
+    </head>
+
+    <body>
+
+    <div class="off-canvas-wrap" data-offcanvas>
+        <div class="inner-wrap">
+
+            <a class="left-off-canvas-toggle menu-icon show-for-medium-down" href="#">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+            </a>
+
+        <!-- Off Canvas Menu -->
+        <aside class="left-off-canvas-menu">
+            <!-- Off canvas menu goes here -->
+            <ul class="off-canvas-list"></ul>
+        </aside>
+
+        <div class="topBar"> <!-- Fixed topbar -->
+            <div class="row">
+                <div class="small-12 medium-6 columns show-for-large-up">
+                    <div class="usp">
+                        <span>100 dagen return right</span>
+                        <span>altijd verzekerd</span>
+                        <span>gratis verzenden & return</span>
+                    </div>
+                </div>
+
+                <div class="small-12 medium-6 columns">
+                    <ul class="menu">
+                        <li class="valuta">
+                            <a data-options="align:left" data-dropdown="currencyDropdown" title="Valuta: EUR" data-foo="&euro;" href="#">Valuta</a>
+                            <ul id="currencyDropdown" class="currency f-dropdown content" data-dropdown-content>
+                                <section>
+                                    <h2 class="title">Gewenste valuta</h2>
+                                </section>
+
+                                <article class="currencyChoice">
+                                    <div class="row">
+                                        <form>
+                                            <div class="small-6 columns">
+                                                <label for="eur" class="currencyValue eur"><input type="radio" id="eur" name="radio" class="styled"/> EUR</label>
+                                                <label for="jpy" class="currencyValue jpy"><input type="radio" id="jpy" name="radio" class="styled"/> JPY</label>
+                                                <label for="usd" class="currencyValue usd"><input type="radio" id="usd" name="radio" class="styled"/> USD</label>
+                                            </div>
+
+                                            <div class="small-6 columns">
+                                                <label for="gbp" class="currencyValue gbp"><input type="radio" id="gbp" name="radio" class="styled"/> GBP</label>
+                                                <label for="aud" class="currencyValue aud"><input type="radio" id="aud" name="radio" class="styled"/> AUD</label>
+                                                <label for="cny" class="currencyValue cny"><input type="radio" id="cny" name="radio" class="styled"/> CNY</label>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </article>
+                            </ul></li>
+                        <li class="search"><a href="#">Zoeken</a></li>
+                        <li class="login"><a href="#">Login</a></li>
+                        <li class="bag" data-options="align:left" data-dropdown="bagDropdown">
+                         <a href="#" title="8 products" data-foo="8">Bag</a></li>
+                        <ul id="bagDropdown" class="shoppingBag f-dropdown content" data-dropdown-content>
+                            <section>
+                                <h2 class="title">Uw producten</h2>
+                            </section>
+
+                            <section class="productlist">
+                                <article class="product odd">
+                                    <div class="row">
+                                        <div class="small-4 columns">
+                                            <div class="image"><img src="http://placehold.it/65x65"></div>
+                                        </div>
+                                        <div class="small-8 columns">
+                                            <div class="product-title">Product title 1</div>
+                                            <div class="price">€ 7.122,00</div>
+                                            <div class="edit-link"><a href="#">wijzigen</a></div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="product even">
+                                    <div class="row">
+                                        <div class="small-4 columns">
+                                            <div class="image"><img src="http://placehold.it/65x65"></div>
+                                        </div>
+                                        <div class="small-8 columns">
+                                            <div class="product-title">Product title 1</div>
+                                            <div class="price">€ 7.122,00</div>
+                                            <div class="edit-link"><a href="#">wijzigen</a></div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="product odd">
+                                    <div class="row">
+                                        <div class="small-4 columns">
+                                            <div class="image"><img src="http://placehold.it/65x65"></div>
+                                        </div>
+                                        <div class="small-8 columns">
+                                            <div class="product-title">Product title 1</div>
+                                            <div class="price">€ 7.122,00</div>
+                                            <div class="edit-link"><a href="#">wijzigen</a></div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="product even">
+                                    <div class="row">
+                                        <div class="small-4 columns">
+                                            <div class="image"><img src="http://placehold.it/65x65"></div>
+                                        </div>
+                                        <div class="small-8 columns">
+                                            <div class="product-title">Product title 1</div>
+                                            <div class="price">€ 7.122,00</div>
+                                            <div class="edit-link"><a href="#">wijzigen</a></div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </section>
+
+                            <section class="subtotal">
+                                <p class="title">Subtotaal</p><p class="price">€ 7.122,00</p>
+                            </section>
+
+                            <a class="button">Afrekenen</a>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- End of topbar -->
+
+        <div class="pageHeader fullWidth">
+            <div class="headerNav">
+                <div class="row">
+                    <div class="top">
+                        <div class="small-12 medium-4 columns">&nbsp;</div>
+                        <div class="small-12 medium-4 columns">
+                            <div class="logo">
+                                <img src="../images/logo.png">
+                            </div>
+                        </div>
+
+                        <div class="small-12 medium-4 columns">
+                            <div class="navSecondary show-for-large-up">
+                                <ul class="menu">
+                                    <li class="first"><a href="#">Tours</a>
+                                    <li><a href="#">Nieuws</a>
+                                    <li><a href="#">Gazan</a></li>
+                                    <li class="last"><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom show-for-large-up">
+                    <div class="row">
+                        <div class="small-12 columns">
+                            <div class="navPrimary">
+                                <ul class="menu">
+                                    <li><a href="#">Juwelen</a></li>
+                                    <li><a href="#" class="active">Diamanten</a></li>
+                                    <li><a href="#">Horloges</a></li>
+                                    <li><a href="#">Trouwen</a></li>
+                                    <li><a href="#">Ringen</a></li>
+                                    <li><a href="#">Merken</a></li>
+                                    <li><a href="#">Gifts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="keyVisual-section tours">
+                <section>
+                    <div class="row">
+                        <div class="image">
+                            <img src="../images/champagnetour-top-img.png">
+                            <h3 class="subtitle">gassan tours</h3>
+                            <h1 class="maintitle"><strong>Champagne tour</strong></h1>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="row">
+                    <div class="small-12 medium-6 columns">
+                        <div class="bodyText left-column">
+                            <p class="title">Diamanten & champagne, een origineel idee!</p>
+                            <p>Na een rondleiding bestaat er de mogelijkheid om uw gasten een glas champagne te laten serveren (kosten niet inbegrepen in de prijs).  Voor meer uitgebreide catering mogelijkheden vragen wij u vriendelijk contact met ons op te nemen. Nadat een ieder een glas heeft ontvangen wordt uitgelegd dat het niet alleen de Champagne is die sprankelt, maar ook iets schitterends op de bodem van elk glas. Afhankelijk van de grootte van het gezelschap, zit er bijvoorbeeld in één van de glazen een briljant geslepen diamant! In alle overige glazen zit een zirkonia, een imitatie steen.
+                            <p>Een diamantexpert bekijkt elke steen, en zo wordt vanzelf de winnaar bekend. Deze ‘Champagne & Diamond Surprise Cocktail’ heeft altijd de gewenste ‘impact’, een ieder beleeft het als een geweldige ervaring. Uiteraard kunnen wij een op maat gemaakte offerte voor u opstellen. Dit pakket is met name geschikt voor groepen.</p>
+                        </div>
+                    </div>
+
+                    <div class="small-12 medium-6 columns">
+                        <div class="bodyText right-column">
+                            <p class="title">Een schitterend ontvangst op locatie!</p>
+                            <p>Een ontvangst op locatie kunt u schitterend laten beginnen met een ‘Champagne & Diamond Surprise Cocktail’.</p>
+                            <p>Tijdens de ‘Champagne & Diamond Surprise Cocktail’ worden uw gasten verwelkomd met een heerlijk glaasje champagne waarbij het niet alleen de champagne is die sprankelt, maar ook iets schitterends op de bodem van elk glas. Afhankelijk van het budget wordt er bij 1 of meerdere gasten een briljant geslepen diamant in het glas champagne verstopt. Onze diamant experts zitten klaar om ieder glas na te kijken om zo de  winnaar van de echte briljant geslepen diamant te vinden.</p>
+                            <p>Tevens ontvangt de winnaar bij de echte briljant geslepen diamant een certificaat van echtheid. Wij bieden u aan om de winnaar direct een gezette diamant te geven. De catering van uw locatie verzorgt de Champagne en de glazen.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="small-12 columns">
+                            <a class="button" href="#">Tour boeken</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <div class="pageContent"> <!--Main content starts here -->
+
+            <section class="gassanTours">
+                <h1 class="maintitle">Gassan Tours</h1>
+
+                <div class="row">
+                    <div class="small-12 medium-6 columns">
+                        <h3 class="formTitle">Champagne tour organiseren?</h3>
+                        <p class="formBodytext">Vul uw gegevens in en wij nemen zo spoedig mogelijk contact me u op.</p>
+
+                        <form class="toursForm">
+                            <div class="row">
+                                <div class="small-12 medium-3 columns">
+                                    <label for="right-label">Naam</label>
+                                </div>
+                                <div class="small-12 medium-9 columns">
+                                    <input type="text" id="right-label">
+                                </div>
+
+                                <div class="small-12 medium-3 columns">
+                                    <label for="right-label">Achternaam</label>
+                                </div>
+                                <div class="small-12 medium-9 columns">
+                                    <input type="text" id="right-label">
+                                </div>
+
+                                <div class="small-12 medium-3 columns">
+                                    <label class="twolines" for="right-label">Straat & Huisnummer</label>
+                                </div>
+                                <div class="small-9 medium-7 columns">
+                                    <input type="text" id="right-label">
+                                </div>
+                                <div class="small-3 medium-2 columns">
+                                    <input type="text" id="right-label">
+                                </div>
+
+                                <div class="small-12 medium-3 columns">
+                                    <label for="right-label">Telefoonnummer</label>
+                                </div>
+                                <div class="small-12 medium-9 columns">
+                                    <input type="text" id="right-label">
+                                </div>
+
+                                <div class="small-12 medium-3 columns">
+                                    <label for="right-label">E-mailadres</label>
+                                </div>
+                                <div class="small-12 medium-9 columns">
+                                    <input type="email" id="right-label">
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="small-12 medium-6 columns">
+                        <div class="formColumn-right">
+                            <div class="small-12 medium-3 columns">
+                                <label for="right-label">Aantal personen:</label>
+                            </div>
+                            <div class="small-12 medium-9 columns">
+                                <select class="small-12 medium-5">
+                                    <option>-- Aantal --</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                </select>
+                            </div>
+
+                            <div class="small-12 medium-3 columns">
+                                <label for="right-label">Datum & tijd</label>
+                            </div>
+                            <div class="small-2 columns">
+                                <input type="text" placeholder="--dd--" class="formDate-day" id="right-label">
+                            </div>
+                            <div class="small-2 columns">
+                                <input type="text" placeholder="--mm--" class="formDate-month" id="right-label">
+                            </div>
+                            <div class="small-2 columns">
+                                <input type="text" placeholder="--yyyy--" class="formDate-year" id="right-label">
+                            </div>
+                            <div class="small-6 large-3 columns">
+                                <select>
+                                    <option>-- tijd --</option>
+                                    <option>0:00</option>
+                                    <option>1:00</option>
+                                    <option>2:00</option>
+                                </select>
+                            </div>
+
+                            <div class="small-12 medium-3 columns">
+                                <label for="right-label">Taal</label>
+                            </div>
+                            <div class="small-12 medium-9 columns">
+                                <select class="small-12 large-5">
+                                    <option>Nederlands</option>
+                                    <option>Duits</option>
+                                    <option>Frans</option>
+                                    <option>Spaans</option>
+                                </select>
+                            </div>
+
+                            <div class="small-12 medium-3 columns">
+                                <label for="right-label">Land</label>
+                            </div>
+                            <div class="small-12 medium-9 columns">
+                                <select class="small-12 large-5">
+                                    <option>Nederland</option>
+                                </select>
+                            </div>
+
+                            <div class="small-12 medium-3 columns">
+                                <label for="right-label">Wensen?</label>
+                            </div>
+                            <div class="small-12 medium-9 columns">
+                                <textarea rows="6"></textarea>
+                            </div>
+                            <div class="small-12 columns">
+                                <a class="button right" href="#">verzenden</a>
+                            </div>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+
+            </section>
+
+        </div> <!-- Main content ends here -->
+
+
+        <div class="pageFooter fullWidth"> <!--Footer starts here -->
+            <div class="row">
+                <div class="medium-1 show-for-medium-up columns">&nbsp;</div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Home</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Over Gassan</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Merken</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Top categorieen</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Diensten</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="medium-1 show-for-medium-up columns">&nbsp;</div>
+            </div>
+
+            <div class="row">
+                <div class="medium-1 show-for-medium-up columns">&nbsp;</div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Home</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Over Gassan</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Merken</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Top categorieen</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Diensten</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="medium-1 show-for-medium-up columns">&nbsp;</div>
+            </div>
+        </div>
+
+
+        <!-- close the off-canvas menu -->
+        <a class="exit-off-canvas"></a>
+
+        </div>
+    </div>
+
+    <script src="../components/jquery/dist/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script src="../components/foundation/js/foundation.min.js"></script>
+    <script src="../components/foundation/js/foundation/foundation.offcanvas.js"></script>
+    <script src="../components/foundation/js/foundation/foundation.magellan.js"></script>
+    <script src="../components/fastclick/lib/fastclick.js"></script>
+    <script src="../js/jquery.sticky.js"></script>
+    <script src="../js/jquery.nicescroll.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/formElements.js"></script>
+    <script src="../js/jquery.sudoSlider.min.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,32 @@
+{
+    "name": "linklinker/core",
+    "description": "LinkLinker Project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jevon van Dijk",
+            "email": "jevon@linklinker.com"
+        }
+    ],
+    "repositories": [
+           {"type": "vcs", "url":"git@github.com:atabix/atabase.git" }
+    ],
+    "require": {
+        "monolog/monolog": "1.2.*",
+        "semantic/ui": "dev-master",
+        "atabix/atabase": "*",
+        "datatables/datatables": "*",
+        "pear/system_daemon": "*",
+		"mashape/unirest-php": "*",
+		"datatables/datatables": "*",
+		"components/jquery": "*",
+		"intervention/image": "*",
+        "aws/aws-sdk-php": "2.*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+         "psr-4": {
+         	  "LinkLinker\\": "src/LinkLinker"
+         }
+    }
+}

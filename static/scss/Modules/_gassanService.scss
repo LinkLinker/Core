@@ -1,0 +1,157 @@
+.gassanService {
+  position:relative;
+  height: auto;
+  overflow: hidden;
+  font-size: rem-calc(16);
+
+  &.contact {
+    border-bottom: 0!important;
+  }
+
+  .inner {
+    position: relative;
+    overflow: hidden;
+
+    .title {
+      p {
+        font-weight: 700;
+      }
+    }
+
+    .bodyText {
+      padding-bottom: rem-calc(20);
+
+      p {
+        font-weight: normal;
+      }
+    }
+  }
+
+  .subtitle {
+    &.page {
+      margin-bottom: $column-gutter;
+      padding-bottom: rem-calc(20);
+      border-bottom: 1px solid $section-border-color;
+    }
+  }
+
+  .gassanSupport,
+  .gassanFAQ {
+    overflow: hidden;
+
+    .links {
+      padding-bottom: $column-gutter * 2;
+
+      ul {
+        padding: 0;
+
+        li {
+          display: block;
+          border-bottom: 1px dashed $section-border-color;
+          padding: 0;
+          margin: 0;
+
+          a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding: rem-calc(8 8 8 0);
+            text-transform: uppercase;
+            font-size: rem-calc(14);
+            color: $body-font-color;
+
+            &.active,
+            &.ui-state-active {
+              color: $gassan-gold;
+
+              &:after {
+                content: "";
+                position: relative;
+                float: right;
+                width: rem-calc(44);
+                height: rem-calc(44);
+                margin-top: rem-calc(-9);
+                margin-right: rem-calc(-8);
+                padding-top: rem-calc(20);
+                padding-left: rem-calc(20);
+                background-image: url('../images/arrow-white-down.png');
+                background-repeat: no-repeat;
+                background-position: 16px 19px;
+                background-color: darken($gassan-gold, 10%);
+                font-size: rem-calc(26);
+                font-weight: 300;
+                color: #ffffff;
+              }
+
+              &:hover {
+                &:after {
+                  content: "";
+                  position: relative;
+                  float: right;
+                  width: rem-calc(44);
+                  height: rem-calc(44);
+                  margin-top: rem-calc(-9);
+                  margin-right: rem-calc(-8);
+                  padding-top: rem-calc(20);
+                  padding-left: rem-calc(20);
+                  background-image: url('../images/arrow-white-down.png');
+                  background-repeat: no-repeat;
+                  background-position: 16px 19px;
+                  background-color: darken($gassan-gold, 10%);
+                  font-size: rem-calc(26);
+                  font-weight: 300;
+                  color: #ffffff;
+                }
+              }
+            }
+
+            &:hover {
+              color: $gassan-gold;
+
+              &:after {
+                content: "";
+                position: relative;
+                float: right;
+                width: rem-calc(44);
+                height: rem-calc(44);
+                margin-top: rem-calc(-9);
+                margin-right: rem-calc(-8);
+                padding-top: rem-calc(20);
+                padding-left: rem-calc(20);
+                background-image: url('../images/arrow-white.png');
+                background-repeat: no-repeat;
+                background-position: 18px 16px;
+                background-color: $gassan-gold;
+                font-size: rem-calc(26);
+                font-weight: 300;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  .gassanFAQ {
+    .answer {
+      border: 1px solid $section-border-color;
+      padding: rem-calc(20);
+      margin-bottom: rem-calc(20);
+    }
+
+    .question{
+      padding-bottom: rem-calc(20);
+      margin-bottom: rem-calc(20);
+
+      .ui-state-focus,
+      .ui-state-active,
+      .ui-accordion-header-active {
+        outline: none !important;
+        box-shadow: none;
+        border: 0;
+      }
+    }
+  }
+}

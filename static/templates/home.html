@@ -1,0 +1,808 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="nl" > <![endif]-->
+<html class="no-js" lang="nl">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Gassan - HOME</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <script src="../components/modernizr/modernizr.js"></script>
+</head>
+
+<body>
+
+<div class="off-canvas-wrap" data-offcanvas>
+    <div class="inner-wrap">
+
+        <a class="left-off-canvas-toggle menu-icon show-for-medium-down" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+
+        <!-- Off Canvas Menu -->
+        <aside class="left-off-canvas-menu">
+            <!-- Off canvas menu goes here -->
+            <ul class="off-canvas-list">
+                <li><label>Gassan</label></li>
+            </ul>
+        </aside>
+
+        <div class="topBar"> <!-- Fixed topbar -->
+            <div class="row">
+                <div class="small-12 medium-6 columns show-for-large-up">
+                    <div class="usp">
+                        <span>100 dagen return right</span>
+                        <span>altijd verzekerd</span>
+                        <span>gratis verzenden & return</span>
+                    </div>
+                </div>
+
+                <div class="small-12 medium-6 columns">
+                    <ul class="menu">
+                        <li class="valuta">
+                            <a data-options="align:left" data-dropdown="currencyDropdown" title="Valuta: EUR" data-foo="&euro;" href="#">Valuta</a>
+                            <ul id="currencyDropdown" class="currency f-dropdown content" data-dropdown-content>
+                                <section>
+                                    <h2 class="title">Gewenste valuta</h2>
+                                </section>
+
+                                <article class="currencyChoice">
+                                    <div class="row">
+                                        <form>
+                                            <div class="small-6 columns">
+                                                <label for="eur" class="currencyValue eur"><input type="radio" id="eur" name="radio" class="styled"/> EUR</label>
+                                                <label for="jpy" class="currencyValue jpy"><input type="radio" id="jpy" name="radio" class="styled"/> JPY</label>
+                                                <label for="usd" class="currencyValue usd"><input type="radio" id="usd" name="radio" class="styled"/> USD</label>
+                                            </div>
+
+                                            <div class="small-6 columns">
+                                                <label for="gbp" class="currencyValue gbp"><input type="radio" id="gbp" name="radio" class="styled"/> GBP</label>
+                                                <label for="aud" class="currencyValue aud"><input type="radio" id="aud" name="radio" class="styled"/> AUD</label>
+                                                <label for="cny" class="currencyValue cny"><input type="radio" id="cny" name="radio" class="styled"/> CNY</label>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </article>
+                            </ul></li>
+
+                        <li class="search" data-options="align:left" data-dropdown="searchDropdown"><a href="#">Zoeken</a></li>
+                        <ul id="searchDropdown" class="searchBeholder f-dropdown content" data-dropdown-content>
+                            <h2 class="title">Zoeken</h2>
+                            <input type="text" size="25" placeholder="zoeken naar product">
+                        </ul></li>
+
+                        <li class="login"><a href="#">Login</a></li>
+
+                        <li class="bag" data-options="align:left" data-dropdown="bagDropdown">
+                            <a href="#" title="8 products" data-foo="8">Bag</a></li>
+                            <ul id="bagDropdown" class="shoppingBag f-dropdown content" data-dropdown-content>
+                                <section>
+                                    <h2 class="title">Uw producten</h2>
+                                </section>
+
+                                <section class="productlist">
+                                    <article class="product odd">
+                                        <div class="row">
+                                            <div class="small-4 columns">
+                                                <div class="image"><img src="http://placehold.it/65x65"></div>
+                                            </div>
+                                            <div class="small-8 columns">
+                                                <div class="product-title">Product title 1</div>
+                                                <div class="price">€ 7.122,00</div>
+                                                <div class="edit-link"><a href="#">wijzigen</a></div>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <article class="product even">
+                                        <div class="row">
+                                            <div class="small-4 columns">
+                                                <div class="image"><img src="http://placehold.it/65x65"></div>
+                                            </div>
+                                            <div class="small-8 columns">
+                                                <div class="product-title">Product title 1</div>
+                                                <div class="price">€ 7.122,00</div>
+                                                <div class="edit-link"><a href="#">wijzigen</a></div>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <article class="product odd">
+                                        <div class="row">
+                                            <div class="small-4 columns">
+                                                <div class="image"><img src="http://placehold.it/65x65"></div>
+                                            </div>
+                                            <div class="small-8 columns">
+                                                <div class="product-title">Product title 1</div>
+                                                <div class="price">€ 7.122,00</div>
+                                                <div class="edit-link"><a href="#">wijzigen</a></div>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <article class="product even">
+                                        <div class="row">
+                                            <div class="small-4 columns">
+                                                <div class="image"><img src="http://placehold.it/65x65"></div>
+                                            </div>
+                                            <div class="small-8 columns">
+                                                <div class="product-title">Product title 1</div>
+                                                <div class="price">€ 7.122,00</div>
+                                                <div class="edit-link"><a href="#">wijzigen</a></div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </section>
+
+
+                                <section class="subtotal">
+                                    <p class="title">Subtotaal</p><p class="price">€ 7.122,00</p>
+                                </section>
+
+                                <a class="button">Afrekenen</a>
+                            </ul>
+                        </ul>
+                </div>
+            </div>
+        </div> <!-- End of topbar -->
+
+        <div class="pageHeader fullWidth">
+            <div class="headerNav">
+                <div class="row">
+
+                    <div class="top">
+                        <div class="small-12 medium-4 columns">&nbsp;</div>
+                        <div class="small-12 medium-4 columns">
+                            <div class="logo">
+                                <img src="../images/logo.png">
+                            </div>
+                        </div>
+
+                        <div class="small-12 medium-4 columns">
+                            <div class="navSecondary show-for-large-up">
+                                <ul class="menu">
+                                    <li class="first"><a href="#">Tours</a>
+                                    <li><a href="#">Nieuws</a>
+                                    <li><a href="#">Gazan</a></li>
+                                    <li class="last"><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom show-for-large-up">
+                    <div class="row">
+                        <div class="small-12 columns">
+                            <div class="navPrimary">
+                                <ul class="menu">
+                                    <li><a class="has-subs active" href="#">Juwelen</a>
+                                        <ul class="submenu">
+                                            <div class="row">
+                                                <div class="inner">
+                                                    <li>Linkje 1</li>
+                                                    <li>Linkje 2</li>
+                                                    <li>Linkje 3</li>
+                                                    <li>Linkje 4</li>
+                                                </div>
+                                            </div>
+                                        </ul></li>
+                                    <li><a class="has-subs" href="#">Diamanten</a>
+                                        <ul class="submenu">
+                                            <div class="row">
+                                                <div class="inner">
+                                                    <li>Linkje 1</li>
+                                                    <li>Linkje 2</li>
+                                                    <li>Linkje 3</li>
+                                                    <li>Linkje 4</li>
+                                                </div>
+                                            </div>
+                                        </ul></li>
+                                    <li><a class="has-subs" href="#">Horloges</a>
+                                        <ul class="submenu">
+                                            <div class="row">
+                                                <div class="inner">
+                                                    <li>Linkje 1</li>
+                                                    <li>Linkje 2</li>
+                                                    <li>Linkje 3</li>
+                                                    <li>Linkje 4</li>
+                                                </div>
+                                            </div>
+                                        </ul></li>
+                                    <li><a class="has-subs" href="#">Trouwen</a>
+                                        <ul class="submenu">
+                                            <div class="row">
+                                                <div class="inner">
+                                                    <li>Linkje 1</li>
+                                                    <li>Linkje 2</li>
+                                                    <li>Linkje 3</li>
+                                                    <li>Linkje 4</li>
+                                                </div>
+                                            </div>
+                                        </ul></li>
+                                    <li><a class="has-subs" href="#">Ringen</a>
+                                        <ul class="submenu">
+                                            <div class="row">
+                                                <div class="inner">
+                                                    <li>Linkje 1</li>
+                                                    <li>Linkje 2</li>
+                                                    <li>Linkje 3</li>
+                                                    <li>Linkje 4</li>
+                                                </div>
+                                            </div>
+                                        </ul></li>
+                                    <li><a class="has-subs" href="#">Merken</a></li>
+                                    <li><a class="has-subs" href="#">Gifts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="keyVisual-large">
+                <ul id="keyVisual" data-orbit data-options="animation:fade;">
+                    <li class="orbit-slide" style="background:url(../images/keyvisual1.png);">
+                        <div class="row">
+                            <div class="keyvisualChoices-block">
+                                <div class="inner">
+                                    <h3 class="subtitle">maak de juiste keus</h3>
+                                    <h1 class="maintitle">Choices</h1>
+                                    <h4 class="subheading">by DL</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="orbit-slide" style="background:url(../images/keyvisual1.png);">
+                        <div class="keyvisualChoices-block">
+                            <div class="inner">
+                                <h3 class="subtitle">of een andere keus</h3>
+                                <h1 class="maintitle">Keus #2</h1>
+                                <h4 class="subheading">by YOU</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="orbit-slide" style="background:url(../images/keyvisual1.png);">
+                        <div class="keyvisualChoices-block">
+                            <div class="inner">
+                                <h3 class="subtitle">anders kies ik wel</h3>
+                                <h1 class="maintitle">Keus #3</h1>
+                                <h4 class="subheading">by ME</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="orbit-slide" style="background:url(../images/keyvisual1.png);">
+                        <div class="keyvisualChoices-block"></div>
+                    </li>
+                </ul>
+
+                <div class="row">
+                      <div class="small-12 columns">
+                        <div class="keyvisualProducts-block show-for-large-up">
+                            <div class="row">
+                                <h3 class="blockTitle">Selected products</h3>
+                                <div class="medium-6 columns">
+                                    <div class="product">
+                                        <div class="inner">
+                                            <div class="image">
+                                                <a href="#"><img src="../images/selectedProduct1.png"></a>
+                                            </div>
+                                            <div class="title">
+                                                Choices
+                                            </div>
+                                            <div class="description">
+                                                Evening hippie
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="medium-6 columns">
+                                    <div class="product">
+                                        <div class="inner">
+                                            <div class="image">
+                                                <a href="#"><img src="../images/selectedProduct2.png"></a>
+                                            </div>
+                                            <div class="title">
+                                                Choices
+                                            </div>
+                                            <div class="description">
+                                                Evening hippie
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="medium-6 columns">
+                                    <div class="product">
+                                        <div class="inner">
+                                            <div class="image">
+                                                <a href="#"><img src="../images/selectedProduct3.png"></a>
+                                            </div>
+                                            <div class="title">
+                                                Choices
+                                            </div>
+                                            <div class="description">
+                                                Evening hippie
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="medium-6 columns">
+                                    <div class="product">
+                                        <div class="inner">
+                                            <div class="image">
+                                                <a href="#"><img src="../images/selectedProduct4.png"></a>
+                                            </div>
+                                            <div class="title">
+                                                Choices
+                                            </div>
+                                            <div class="description">
+                                                Evening hippie
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="pageContent"><!--Main content starts here -->
+
+            <section class="attentionText">
+                <div class="row">
+                    <div class="small-12 columns">
+                        <h3>Gassan staat voor diamanten, juwelen en luxe horloges.
+                            Het merk gassan representeert handwerk, bewezen
+                            kwaliteit en betrouwbaarheid, al meer dan 69 jaar.</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section class="discoverPossibilities">
+                <div class="row">
+                    <div class="small-12 columns">
+                        <h3 class="subtitle">Wat heeft gassan te bieden</h3>
+                        <h1 class="maintitle">Ontdek de mogelijkheden</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="elementPanel div-url">
+                            <div class="image">
+                                <a href="#"><img src="../images/discoverProducts.png"></a>
+                                <div class="overlay">
+                                    <p>lees meer</p>
+                                </div>
+                            </div>
+                            <div class="title">
+                                <a href="#"><p>Producten</p></a>
+                            </div>
+                            <div class="description">
+                                <p>De beste producten ter wereld.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="elementPanel div-url">
+                            <div class="image">
+                                <a href="#"><img src="../images/discoverProducts.png"></a>
+                                <div class="overlay">
+                                    <p>lees meer</p>
+                                </div>
+                            </div>
+                            <div class="title">
+                                <a href="#"><p>Gift</p></a>
+                            </div>
+                            <div class="description">
+                                <p>De beste producten ter wereld.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="elementPanel div-url">
+                            <div class="image">
+                                <a href="#"><img src="../images/discoverProducts.png"></a>
+                                <div class="overlay">
+                                    <p>lees meer</p>
+                                </div>
+                            </div>
+                            <div class="title">
+                                <a href="#"><p>Advertentie</p></a>
+                            </div>
+                            <div class="description">
+                                <p>De beste producten ter wereld.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="elementPanel div-url">
+                            <div class="image">
+                                <a href="#"><img src="../images/discoverProducts.png"></a>
+                                <div class="overlay">
+                                    <p>lees meer</p>
+                                </div>
+                            </div>
+                            <div class="title">
+                                <a href="#"><p>Gassan 121</p></a>
+                            </div>
+                            <div class="description">
+                                <p>De beste producten ter wereld.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="call-to-action">
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <a href="#" class="button">Naar de shop</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="shortStory">
+
+                <ul id="storySlider" class="slideBox">
+                    <li style="background-image: url('../images/frontStory-bg.png');background-position: center;background-size: cover;">
+                        <div class="row">
+                            <div class="small-12 large-6 columns">
+                                <h3 class="subtitle">Onze historie</h3>
+                                <h1 class="maintitle">Het verhaal van Gassan</h1>
+
+                                <div class="bodyText">
+                                    <p><strong>Gassan, already one of the world’s leading diamond polishing
+                                        and luxury jewelry and watch companies wants to strengthen
+                                        its position in order to be not only the leading diamond polishing company
+                                        in the Netherlands, but eventually, also in the whole world.</strong></p>
+
+                                    <p>Gassan will achieve her goals by offering craftsmanship creativity and
+                                        customer care and by being the customers truly reliable companion in
+                                        the dazzling world of diamonds, jewelry and watches.</p>
+
+                                    <p>Gassan loves to share the values and passion for the fascinating
+                                        diamond trade and aims to keep the diamond polishing craftsmanship
+                                        alive for ever, like the diamonds themselves, who are and always will
+                                        be ‘forever’.</p>
+
+                                    <p>&nbsp;</p>
+
+                                    <a href="#" class="button">lees meer</a>
+                                </div>
+
+                                <div class="small-12 medium-6 columns"></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li style="background-image: url('../images/frontStory-bg.png');background-position: center;background-size: cover;">
+                        <div class="row">
+                            <div class="small-12 large-6 columns">
+                                <h3 class="subtitle">Onze historie</h3>
+                                <h1 class="maintitle">Het verhaal van Gassan</h1>
+
+                                <div class="bodyText">
+                                    <p><strong>Gassan, already one of the world’s leading diamond polishing
+                                        and luxury jewelry and watch companies wants to strengthen
+                                        its position in order to be not only the leading diamond polishing company
+                                        in the Netherlands, but eventually, also in the whole world.</strong></p>
+
+                                    <p>Gassan will achieve her goals by offering craftsmanship creativity and
+                                        customer care and by being the customers truly reliable companion in
+                                        the dazzling world of diamonds, jewelry and watches.</p>
+
+                                    <p>Gassan loves to share the values and passion for the fascinating
+                                        diamond trade and aims to keep the diamond polishing craftsmanship
+                                        alive for ever, like the diamonds themselves, who are and always will
+                                        be ‘forever’.</p>
+
+                                    <p>&nbsp;</p>
+
+                                    <a href="#" class="button">lees meer</a>
+                                </div>
+
+                                <div class="small-12 medium-6 columns"></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </section>
+
+            <section class="storyNavigator">
+                <div class="row">
+                    <div class="small-6 columns">
+                        <div class="prev"><a class="left customNav" data-target="prev">Terug</a></div>
+                    </div>
+                    <div class="small-6 columns">
+                        <div class="next"><a class="right customNav" data-target="next">Next</a></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="brilliantChoice">
+                <div class="row">
+                    <div class="small-12 columns">
+                        <h3 class="subtitle">Diamanten, ringen en schitterende juwelen</h3>
+                        <h1 class="maintitle">Gassan, a brilliant choice</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="elementPanel div-url">
+                            <div class="image">
+                                <img src="../images/discoverProducts.png">
+                                <div class="overlay"><p>lees meer</p></div>
+                            </div>
+                            <div class="title">
+                                <p>Producten</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="elementPanel div-url">
+                            <div class="image">
+                                <img src="../images/discoverProducts.png">
+                                <div class="overlay"><p>lees meer</p></div>
+                            </div>
+                            <div class="title">
+                                <p>Gift</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="elementPanel div-url">
+                            <div class="image">
+                                <a href="#"><img src="../images/discoverProducts.png"></a>
+                                <div class="overlay"><p>lees meer</p></div>
+                            </div>
+                            <div class="title">
+                                <p>Advertentie</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="elementPanel div-url">
+                            <div class="image">
+                                <img src="../images/discoverProducts.png">
+                                <div class="overlay"><p>lees meer</p></div>
+                            </div>
+                            <div class="title">
+                                <p>Gassan 121</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gassanService">
+                <div class="row">
+
+                    <h3 class="subtitle">Gassan Service</h3>
+                    <h1 class="maintitle">Niets is belangrijker dan onze clienten</h1>
+
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="inner">
+                            <div class="title"><p>Live klanten support</p></div>
+                            <div class="bodyText"><p>The brand Gassan, with its life long experience and knowledge of the world markets - the Dutch and Asian market in particular- will continue to further strengthen its position and develop into one of the world’s leading diamond polishing and luxury jewelry and watch companies.</p></div>
+                        </div>
+                    </div>
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="inner">
+                            <div class="title"><p>Verzekerde betaalmethoden</p></div>
+                            <div class="bodyText"><p>The brand Gassan, with its life long experience and knowledge of the world markets - the Dutch and Asian market in particular- will continue to further.</p></div>
+                        </div>
+                    </div>
+                    <div class="small-12 medium-6 large-3 columns">
+                        <div class="inner">
+                            <div class="title"><p>Informatie services</p></div>
+                            <div class="bodyText"><p>The brand Gassan, with its life long experience and knowledge of the world markets - the Dutch and Asian market in particular- will continue to further strengthen its position and develop into one of the world’s leading diamond.</p></div>
+                        </div>
+                    </div>
+                    <div class="small-12 medium-6 large-3 columns" >
+                        <div class="inner">
+                            <div class="title"><p>Gift services</p></div>
+                            <div class="bodyText"><p>The brand Gassan, with its life long experience and knowledge of the world markets - the Dutch and Asian market in particular- will continue to further strengthen its position and develop into one of the world’s leading diamond polishing and luxury jewelry and watches.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="newsletterOptin">
+                <div class="row">
+
+                    <h3 class="subtitle">Schrijf u in voor de nieuwsbrief</h3>
+
+                    <form>
+                        <div class="small-12 medium-4 columns">
+                           <input type="text" placeholder="Voornaam" />
+                        </div>
+                        <div class="small-12 medium-4 columns">
+                           <input type="text" placeholder="Achternaam" />
+                        </div>
+                        <div class="small-12 medium-4 columns">
+                           <input type="text" placeholder="E-mail" />
+                        </div>
+
+                        <div class="call-to-action">
+                            <div class="row">
+                                <div class="small-12 columns">
+                                    <input type="submit" class="button" value="verzenden">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+        </div><!-- Main content ends here -->
+
+        <div class="pageFooter fullWidth"> <!--Footer starts here -->
+            <div class="row">
+                <div class="medium-1 show-for-medium-up columns">&nbsp;</div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Home</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Over Gassan</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Merken</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Top categorieen</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Diensten</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="medium-1 show-for-medium-up columns">&nbsp;</div>
+            </div>
+
+            <div class="row">
+                <div class="medium-1 show-for-medium-up columns">&nbsp;</div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Home</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Over Gassan</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Merken</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Top categorieen</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="small-6 medium-2 columns">
+                    <h3>Diensten</h3>
+                    <ul class="menu">
+                        <li>jewelry</li>
+                        <li>diamonds</li>
+                        <li>watches</li>
+                        <li>wedding</li>
+                        <li>engagement rings</li>
+                        <li>brands</li>
+                        <li>gifts</li>
+                    </ul>
+                </div>
+                <div class="medium-1 show-for-medium-up columns">&nbsp;</div>
+            </div>
+        </div>
+
+
+        <!-- close the off-canvas menu -->
+        <a class="exit-off-canvas"></a>
+
+    </div>
+</div>
+
+    <script src="../components/jquery/dist/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script src="../components/foundation/js/foundation.min.js"></script>
+    <script src="../components/foundation/js/foundation/foundation.offcanvas.js"></script>
+    <script src="../components/fastclick/lib/fastclick.js"></script>
+    <script src="../js/jquery.nicescroll.min.js"></script>
+    <script src="../js/jquery.sticky.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/formElements.js"></script>
+    <script src="../js/jquery.sudoSlider.min.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,214 @@
+.orderCheckout,
+.orderPayment,
+.orderComplete {
+  position: relative;
+  border-top: 1px solid $section-border-color;
+  background-color: #fdfdfd;
+
+  .columns,
+  .column {
+    padding: 0;
+  }
+
+  .elementPanel {
+    margin-bottom: 0;
+
+    header {
+      height: rem-calc(40);
+      padding: rem-calc(14);
+      border-bottom: 1px solid $section-border-color;
+
+      @extend .micro-header;
+      text-align: left;
+      color: #bababa;
+    }
+  }
+
+  .invoiceColumn {
+    border-right: 1px solid $section-border-color;
+  }
+
+  .deliveryAddress {
+    padding-top: 0!important;
+
+    header {
+      padding-left: rem-calc(5);
+      color: #000000;
+      font-weight: bold;
+    }
+  }
+
+  .shoppingCart,
+  .invoiceAddress,
+  .deliveryAddress {
+    position: relative;
+    padding: rem-calc(20);
+    overflow: hidden;
+
+    .title {
+      font-size: rem-calc(26);
+      font-weight: normal;
+      padding: 0 0 rem-calc(5);
+    }
+
+    .button {
+      margin-top: $column-gutter;
+    }
+
+    label {
+      text-transform: uppercase;
+      font-size: rem-calc(12);
+      text-align: left;
+      color: #bababa;
+    }
+  }
+
+  .checkboxOption {
+    padding-top: $column-gutter;
+
+    span {
+      padding-left: rem-calc(10);
+    }
+  }
+
+  .call-to-action {
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    padding: rem-calc(20);
+
+    .button {
+      margin: 0;
+      float: right;
+    }
+  }
+
+  .bodyText {
+    padding-bottom: rem-calc(20);
+  }
+
+  .shoppingCart {
+    margin-top: rem-calc(-20);
+
+    .call-to-action {
+      padding-right: rem-calc(20);
+      top: rem-calc(20);
+    }
+
+    article.row {
+      padding-top: rem-calc(20);
+      padding-bottom: rem-calc(20);
+      border-bottom: 1px dashed $section-border-color;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        background-color: $container-color-secondary;
+      }
+    }
+
+    section.subtotal {
+      border-bottom: 0;
+      padding-top: rem-calc(30);
+      padding-right: rem-calc(20);
+      margin-left: rem-calc(-20);
+      margin-right: rem-calc(-20);
+
+      @media #{$medium-up} {
+        border-bottom: 1px solid $section-border-color;
+      }
+
+      .amount {
+        p {
+          font-size: rem-calc(24);
+          font-family: $body-font-family;
+          font-weight: 700;
+          padding-left: rem-calc(20);
+        }
+      }
+
+      .text {
+        p {
+          text-transform: uppercase;
+          font-size: rem-calc(12);
+          color: $body-font-color;
+
+          span {
+            color: #bababa;
+          }
+        }
+      }
+    }
+
+    .product-image {
+      position: relative;
+      width: rem-calc(85);
+      height: rem-calc(85);
+      margin: 0 auto;
+    }
+
+    .product-name {
+      padding: 0;
+      margin: rem-calc(10) 0 0 0;
+      font-family: $secondary-font;
+      text-transform: uppercase;
+      font-size: rem-calc(16);
+
+    }
+    .product-price {
+      padding: 0;
+      margin: 0;
+      font-family: $secondary-font;
+      text-transform: uppercase;
+      font-size: rem-calc(16);
+    }
+  }
+
+
+  .call-to-action {
+    margin-left: rem-calc(-15);
+    margin-right: rem-calc(-15);
+    padding-top: rem-calc(20);
+    padding-bottom: rem-calc(0);
+    padding-left: 0;
+    padding-right: 0;
+
+    .button {
+      margin-top: 5px;
+    }
+
+    .column,
+    .columns {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .prev {
+      overflow: hidden;
+
+      a {
+        display: block;
+        height: 100%;
+        width: rem-calc(120);
+        padding: rem-calc(20 0);
+        text-transform: uppercase;
+        font-size: rem-calc(12px);
+        color: $container-color-primary;
+
+        &:hover {
+          color: $gassan-gold;
+        }
+
+        &:before {
+          content: "\00a0";
+          position: relative;
+          display: inline-block;
+          height: rem-calc(15);
+          width: rem-calc(15);
+          margin-right: rem-calc(10);
+          background: url('../images/arrow-dark-left.png') no-repeat;
+        }
+      }
+    }
+  }
+
+}

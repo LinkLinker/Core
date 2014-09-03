@@ -1,0 +1,58 @@
+.orderPayment {
+
+  .call-to-action {
+    padding: rem-calc(20);
+    margin-top: rem-calc(-30px);
+    margin-left: rem-calc(0);
+    margin-right: rem-calc(0);
+    border-bottom: 1px solid $section-border-color;
+    border-left: 1px solid $section-border-color;
+    border-right: 1px solid $section-border-color;
+    background-color: #ffffff;
+  }
+
+  .form-note {
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: rem-calc(12);
+  }
+
+  label {
+    text-transform: uppercase;
+    font-size: rem-calc(12);
+    text-align: left;
+    color: #bababa;
+  }
+
+  .paymentInfo {
+    padding: rem-calc(20);
+
+    .paymentMethod {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        padding-bottom: rem-calc(5);
+      }
+
+      .cardAmex,
+      .cardMaster,
+      .cardVisa {
+        overflow: hidden;
+        display: block;
+
+        img {
+          margin-right: rem-calc(5);
+        }
+      }
+    }
+
+    .coupon-wrapper {
+      position: relative;
+      padding: rem-calc(20) 0;
+      width: rem-calc(210);
+    }
+
+  }
+}

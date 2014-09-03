@@ -1,0 +1,22 @@
+.brandVideos {
+
+  .subtitle {
+    position: relative;
+    padding-bottom: $column-gutter * 2;
+  }
+
+  .vidThumb {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+
+    @media #{$large-up} {
+      width: rem-calc(420);
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}

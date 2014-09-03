@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'TimesRegular';
+  src: url('../fonts/times-regular.eot');
+  src: url('../fonts/times-regular.eot') format('embedded-opentype'),
+  url('../fonts/times-regular.woff') format('woff'),
+  url('../fonts/times-regular.ttf') format('truetype'),
+  url('../fonts/times-regular.svg#TimesRegular') format('svg');
+
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Corbel';
+  src: url('../fonts/corbel-webfont.eot');
+  src: url('../fonts/corbel-webfont.eot') format('embedded-opentype'),
+  url('../fonts/corbel-webfont.woff') format('woff'),
+  url('../fonts/corbel-webfont.ttf') format('truetype'),
+  url('../fonts/corbel-webfont.svg#Corbel') format('svg');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Corbel';
+  src: url('../fonts/corbelb-webfont.eot');
+  src: url('../fonts/corbelb-webfont.eot') format('embedded-opentype'),
+  url('../fonts/corbelb-webfont.woff') format('woff'),
+  url('../fonts/corbelb-webfont.ttf') format('truetype'),
+  url('../fonts/corbelb-webfont.svg#Corbel') format('svg');
+  font-style: normal;
+  font-weight: 700;
+}

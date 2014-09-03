@@ -1,0 +1,50 @@
+.keyVisual-section {
+  position: relative;
+  background-color: #000619;
+  border-bottom: 1px solid $section-border-color;
+  color: #ffffff;
+
+  .bodyText {
+    width: 80%;
+    padding-bottom: $column-gutter;
+
+    @media #{$medium-up} {
+      padding-bottom: $column-gutter * 2;
+    }
+
+    p {
+      font-size: rem-calc(16);
+      line-height: rem-calc(30);
+    }
+
+    .title {
+      font-size: rem-calc(19);
+    }
+  }
+
+  .image {
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .maintitle {
+    text-align: center;
+    color: #ffffff;
+    font-family: $secondary-font;
+    font-size: rem-calc(26);
+    text-transform: uppercase;
+    padding-bottom: $column-gutter;
+    letter-spacing: rem-calc(1);
+  }
+
+  .subtitle {
+    text-align: center;
+    color: #7f8080;
+    @extend .micro-header;
+  }
+
+}
+
+

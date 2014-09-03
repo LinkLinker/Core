@@ -1,0 +1,70 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: $body-font-family;
+}
+
+.fullWidth {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline;
+  }
+}
+
+a {
+  transition: all 150ms ease-in-out;
+}
+
+button, .button, .secondary-button {
+  text-transform: uppercase;
+  font-size: rem-calc(14);
+  padding-left: rem-calc(50);
+  padding-right: rem-calc(50);
+  letter-spacing: rem-calc(1);
+}
+
+.micro-header {
+  display: block;
+  width: 100%;
+  height: rem-calc(12px);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: rem-calc(12px);
+  letter-spacing: rem-calc(1);
+}
+
+.bodyText {
+  a {
+    color: $body-font-color;
+    text-decoration: underline;
+
+    &:hover {
+      color: $gassan-gold;
+    }
+  }
+
+  .button {
+    color: #ffffff;
+    text-decoration: none;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}
+
+.kaas {
+  .ham {
+    color: red;
+  }
+}

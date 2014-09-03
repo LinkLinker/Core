@@ -1,0 +1,42 @@
+.brilliantChoice {
+  position:relative;
+  height: auto;
+  overflow: hidden;
+
+  .elementPanel {
+    position: relative;
+    margin: 0 auto;
+    border: 0;
+
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid #bababa;
+      margin-bottom: rem-calc(5);
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .title {
+      p {
+        @extend .micro-header;
+        text-align: center;
+        margin: 0;
+        color: #bababa;
+      }
+    }
+
+    .description {
+      text-align: center;
+
+      p {
+        font-weight: 700;
+        margin: 0;
+      }
+    }
+  }
+
+}

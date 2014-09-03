@@ -1,0 +1,69 @@
+.elementPanel {
+  background-color: #ffffff;
+  border: $panel-border-size $panel-border-style $section-border-color;
+  margin-bottom: $column-gutter!important;
+  color: $body-font-color;
+  overflow: hidden;
+
+  &.even {
+    border-left: 0;
+  }
+
+  &.div-url {
+    cursor: pointer;
+    overflow: hidden;
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      padding: rem-calc(20);
+      background: $gassan-gold;
+      opacity: 0;
+      text-align: center;
+      -webkit-transition: opacity 200ms ease-in;
+      -moz-transition: opacity 200ms ease-in;
+      -o-transition: opacity 200ms ease-in;
+      -ms-transition: opacity 200ms ease-in;
+      transition: opacity 200ms ease-in;
+
+      &:hover {
+        opacity: 0.9;
+      }
+
+      p {
+        width: 86%;
+        border: 3px solid #000000;
+        padding: rem-calc(8);
+        margin: 0 auto;
+        text-transform: uppercase;
+        @include vertical-align;
+      }
+    }
+  }
+
+  .image {
+    position: relative;
+    clear: both;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .title {
+    padding: $column-gutter / 2;
+    font-size: rem-calc(20);
+    font-weight: 700;
+  }
+
+  .bodyText {
+    line-height: rem-calc(21);
+  }
+
+}

@@ -1,0 +1,113 @@
+.shortStory {
+  position: relative;
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+  background-color: $container-color-primary;
+
+  ul {
+    overflow: hidden;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+    li {
+      padding-top: $column-gutter * 2;
+      padding-bottom: $column-gutter * 2;
+    }
+  }
+
+  .subtitle,
+  .maintitle {
+    text-align: left !important;
+    color: #ffffff;
+  }
+
+  .subtitle {
+    color: transparentize(#ffffff, 0.2)!important;
+  }
+
+  .bodyText {
+    padding-right: rem-calc(40px);
+    color: #ffffff;
+
+    .button {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+}
+
+
+// Shortstory navigator at the bottom
+.storyNavigator {
+  position: relative;
+  height: rem-calc(80px);
+  padding: rem-calc(0)!important;
+
+  .columns, .column {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .prev {
+    border-right: 1px solid #bababa;
+    overflow: hidden;
+    padding-left: $column-gutter;
+
+
+    a {
+      display: block;
+      height: 100%;
+      width: 100%;
+      padding: rem-calc(32 0);
+      text-transform: uppercase;
+      font-size: rem-calc(12px);
+      color: $container-color-primary;
+
+      &:hover {
+        color: $gassan-gold;
+      }
+
+      &:before {
+        content: "\00a0";
+        position: relative;
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        margin-right: rem-calc(10);
+        background: url('../images/arrow-dark-left.png') no-repeat;
+      }
+    }
+  }
+
+  .next {
+    overflow: hidden;
+    padding-right: $column-gutter;
+
+    a {
+      display: block;
+      float: right;
+      height: 100%;
+      width: 100%;
+      padding: rem-calc(32 0);
+      text-align: right;
+      text-transform: uppercase;
+      font-size: rem-calc(12px);
+      color: $container-color-primary;
+
+      &:hover {
+        color: $gassan-gold;
+      }
+
+      &:after {
+        content: "\00a0";
+        position: relative;
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        margin-left: rem-calc(15);
+        background: url('../images/arrow-dark-right.png') no-repeat;
+      }
+    }
+  }
+}

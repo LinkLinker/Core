@@ -1,0 +1,41 @@
+.latestProduct-sold {
+  position:relative;
+  height: auto;
+  overflow: hidden;
+
+  .subtitle {
+    padding-bottom: $column-gutter * 1.5;
+  }
+
+  .elementPanel {
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: rem-calc(30px);
+    border: 0;
+
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid #bababa;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .title {
+      display: block;
+      width: 100%;
+      height: rem-calc(12px);
+      text-align: center;
+      padding: rem-calc(15px);
+      @extend .micro-header;
+    }
+  }
+
+  .call-to-action {
+    text-align: center;
+    padding-top: rem-calc(30px);
+  }
+}

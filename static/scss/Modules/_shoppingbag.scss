@@ -1,0 +1,78 @@
+.shoppingBag {
+  border: 1px solid $section-border-color;
+  margin-top: rem-calc(20);
+  margin-right: rem-calc(-2);
+  z-index: 2000 !important;
+  color: $body-font-color;
+  text-align: left;
+
+  .title {
+    @extend .micro-header;
+    padding-bottom: $column-gutter;
+    border-bottom: 1px dashed $section-border-color;
+  }
+
+  .productlist {
+    article {
+      height: auto;
+      padding: rem-calc(10);
+      border-bottom: 1px dashed $section-border-color;
+
+      &:last-of-type {
+        margin-bottom: rem-calc(10);
+      }
+
+      .product-title {
+        padding: 0;
+        color: $body-font-color;
+        font-family: $secondary-font;
+      }
+
+      .price {
+        font-size: rem-calc(16);
+        margin-top: rem-calc(-2);
+        border: 0;
+      }
+    }
+  }
+
+  .button {
+    display: block;
+    margin: rem-calc(20) auto 0;
+    color: #ffffff;
+  }
+
+  .edit-link {
+    display: block;
+    float: right;
+    font-size: rem-calc(12);
+    margin-top: rem-calc(-2);
+
+    a {
+      text-decoration: underline;
+      color: $body-font-color;
+
+      &:hover {
+        color: $gassan-gold;
+      }
+    }
+  }
+
+  .subtotal {
+    text-align: right;
+    padding-bottom: rem-calc(10);
+    margin-bottom: rem-calc(10);
+    border-bottom: 1px solid $section-border-color;
+
+    .title {
+      display: inline;
+      padding-right: rem-calc(30);
+      border: 0!important;
+    }
+
+    .price {
+      display: inline;
+      padding: 0;
+    }
+  }
+}

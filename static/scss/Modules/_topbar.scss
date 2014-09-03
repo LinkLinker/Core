@@ -1,0 +1,183 @@
+.topBar {
+  position: fixed;
+  width: 100%;
+  height: rem-calc(30);
+  padding-top: rem-calc(6px);
+  background-color: $container-color-primary;
+  color: #ffffff;
+  margin-bottom: $column-gutter * 2;
+  z-index: 4000;
+  text-transform: uppercase;
+
+  @media #{$large-up} {
+    height: rem-calc(30px);
+  }
+
+  span {
+    height: 100%;
+    display: inline-block;
+    margin-right: rem-calc(30px);
+    font-size: rem-calc(10px);
+    font-family: "arial";
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  a {
+    font-size: rem-calc(12);
+    color: #a3a6aa;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+
+  .menu {
+    line-height: 1;
+    text-align: right;
+
+    li {
+      padding-left: rem-calc(10);
+      margin-left: rem-calc(10);
+
+      &:before {
+        content: "\00a0";
+        position: relative;
+        overflow: hidden;
+        display: inline;
+        width: rem-calc(5);
+        height: rem-calc(15);
+        border-left: 1px dotted #a3a6aa;
+        left: rem-calc(-8);
+      }
+    }
+  }
+
+
+  // 3 USP's upperleft.
+  .usp {
+    span {
+      display: inline-block;
+      padding-right: rem-calc(5);
+
+      @media #{$medium-up} {
+        padding-right: rem-calc(5);
+      }
+
+      &:nth-child(3){
+        padding-right: 0;
+        margin-right: 0;
+      }
+    }
+  }
+
+
+  // Currency dropdown positioning fix.
+  #currencyDropdown {
+    width: rem-calc(240);
+    margin-left: rem-calc(-14);
+    margin-top: rem-calc(-4);
+
+    @media #{$small-only} {
+      width: rem-calc(240)!important;
+      margin: rem-calc(16) 0 0 0;
+    }
+  }
+
+  .valuta {
+
+    form {
+      padding: 0;
+    }
+
+   &:before {
+     content: "";
+     border-left: 0!important;
+   }
+    a {
+      &:after {
+        content: attr(data-foo);
+        display: inline-block;
+        width: rem-calc(18);
+        height: rem-calc(18);
+        top: 0;
+        text-align: center;
+        line-height: 1.2;
+        border-radius: 100%;
+        background-color: #ffffff;
+        color: $body-font-color;
+        margin-left: rem-calc(8);
+        margin-right: rem-calc(-2);
+        font-size: rem-calc(14);
+        padding-top: 1px;
+      }
+    }
+  }
+
+  // Search bar dropdown
+  .search {
+    a {
+      &:after {
+        content: "";
+        display: inline-block;
+        width: rem-calc(13);
+        height: rem-calc(15);
+        margin-left: rem-calc(8);
+        margin-right: rem-calc(-2);
+        margin-bottom: rem-calc(-2);
+        background: url('../images/icon-search-topbar.png') no-repeat;
+        background-position: bottom;
+      }
+    }
+  }
+
+  .searchBeholder {
+    max-width: 100%;
+    margin-right: rem-calc(-5px);
+
+    @media #{$medium-up} {
+      max-width: rem-calc(400);
+    }
+
+    @media #{$small-only} {
+      margin-top: rem-calc(15);
+    }
+
+    h2 {
+      @extend .micro-header;
+      text-align: left;
+      border-bottom: 1px solid $section-border-color;
+      padding-bottom: rem-calc(10);
+      margin-bottom: rem-calc(10);
+      height: rem-calc(20);
+      line-height: 1;
+    }
+  }
+
+  // Bag dropdown positioning fix.
+  #bagDropdown {
+    margin-left: 6px;
+  }
+
+  // ShoppingBag (also see: Modules/shoppingBag).
+  .bag {
+    padding-right: rem-calc(8);
+
+    a {
+      &:after {
+        content: attr(data-foo);
+        display: block;
+        float: right;
+        width: rem-calc(18);
+        height: rem-calc(18);
+        text-align: center;
+        line-height: 1;
+        border-radius:100%;
+        background-color: #ffffff;
+        padding-top: rem-calc(3);
+        color: $body-font-color;
+      }
+    }
+
+  }
+}

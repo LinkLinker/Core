@@ -1,0 +1,32 @@
+.pageFooter {
+  position: static;
+  min-height: 460px;
+  height: auto;
+  padding-top: $column-gutter * 2;
+  bottom: 0;
+  background-color: $container-color-primary;
+  color: #bababa;
+  text-transform: uppercase;
+
+  h2,h3 {
+    font-size: rem-calc(14px);
+    color: #bababa;
+  }
+
+  ul.menu {
+    padding-bottom: rem-calc(20px);
+
+    li {
+      display: block;
+      font-size: rem-calc(12px);
+
+      a {
+        color: #bababa;
+
+        &:hover {
+          color: lighten(#bababa, 10%);
+        }
+      }
+    }
+  }
+}

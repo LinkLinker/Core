@@ -1,0 +1,48 @@
+.keyvisualChoices-block {
+  position: relative;
+  display: none;
+  z-index: 1000;
+  margin: 0 auto;
+  width: rem-calc(472px);
+  height: rem-calc(166px);
+  padding: rem-calc(5px);
+  background-color: transparentize(#ffffff, 0.1);
+  text-align: center;
+
+  @media #{$medium-up} {
+    display: block;
+    top: rem-calc(80);
+    right: 0;
+  }
+  @media #{$large-up} {
+    top: rem-calc(160);
+    right: rem-calc(100);
+  }
+
+  .inner {
+    border: 1px solid #000000;
+    padding: rem-calc(20px);
+
+    .subtitle {
+      @extend .micro-header;
+      padding: 0;
+      color: #7f8080;
+    }
+
+    .maintitle {
+      font-size: rem-calc(48);
+      border-bottom: 1px solid #000000;
+      font-family: $secondary-font;
+      text-transform: uppercase;
+      font-weight: 700;
+      padding: 0;
+      margin-bottom: rem-calc(1);
+    }
+
+    .subheading {
+      font-size: rem-calc(16);
+      font-family: $secondary-font;
+      margin: 0;
+    }
+  }
+}
