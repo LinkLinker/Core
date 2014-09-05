@@ -1,0 +1,13 @@
+{
+  "name": "semantic-ui-sass",
+  "homepage": "https://github.com/doabit/semantic-ui-sass",
+  "_release": "d8084d26f5",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "d8084d26f5f7a80aff157d7eb357022ac9379963"
+  },
+  "_source": "git://github.com/doabit/semantic-ui-sass.git",
+  "_target": "*",
+  "_originalSource": "semantic-ui-sass"
+}

@@ -1,10 +1,26 @@
 {
-  "name": "foundation-libsass-template",
+  "name": "LinkLinker",
+  "version": "0.0.1",
+  "authors": [
+    "Jevon van Dijk <jevon@atabix.nl>"
+  ],
+  "description": "LinkLinker Alpha",
+  "keywords": [
+    "framework"
+  ],
+  "license": "MIT",
+  "homepage": "linklinker.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "foundation": "5.3.1",
-    "jquery-tokeninput": "latest",
+    "jquery": "~2.1.1",
     "jquery-form": "latest",
-    "jqueryui": "latest",
-    "jquery-file-upload": "latest"
+    "grunt": "~0.4.5",
+    "semantic-ui-sass": "latest"
   }
 }

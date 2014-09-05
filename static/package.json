@@ -1,8 +1,8 @@
 {
-  "name": "foundation-libsass-template",
+  "name": "LinkLinker",
   "version": "0.0.1",
   "devDependencies": {
-    "grunt": "~0.4.1",
+    "grunt": "~0.4.5",
     "grunt-autoprefixer": "^0.8.2",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-sass": "~0.8.0",

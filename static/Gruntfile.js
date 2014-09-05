@@ -4,7 +4,9 @@ module.exports = function(grunt) {
 
     sass: {
       options: {
-        includePaths: ['components/foundation/scss']
+        includePaths: ['components/foundation/scss'],
+        includePaths: ['components/semantic-ui'],
+        includePaths: ['components/semantic-ui-sass']
       },
       dist: {
         options: {
